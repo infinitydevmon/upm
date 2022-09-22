@@ -16,7 +16,7 @@ namespace IVSendBox.Models
 
         public static CharacterModel character2
         {
-            get { return new CharacterModel { JsonKey = "character1", Name = "jung" }; }
+            get { return new CharacterModel { JsonKey = "character2", Name = "jung" }; }
         }
     }
 }
