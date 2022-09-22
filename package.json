@@ -1,13 +1,11 @@
 {
 	"name": "com.iv.sendbox",
-	"displayName": "IV SendBox",
-	"description": "IV SendBox for Unity.",
 	"version": "0.1.0",
-	"unity": "2021.3.6f1",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/infinitydevmon/upm/sendbox/Assets/SendBox.git"
 	},
+
 	"samples": [
 		{
 			"displayName": "test",
