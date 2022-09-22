@@ -6,7 +6,7 @@
 	"unity": "2021.3.6f1",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/infinitydevmon/upm.git"
+		"url": "git+https://github.com/infinitydevmon/upm/sendbox/Assets/SendBox.git"
 	},
 	"samples": [
 		{
