@@ -1,0 +1,16 @@
+{
+	"name": "com.addressable.extends",
+	"version": "0.1.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/infinitydevmon/upm/tree/main/sendbox/Assets/SendBox.git"
+	},
+
+	"samples": [
+		{
+			"displayName": "test",
+			"description": "UI Unmask Demo",
+			"path": "Sample"
+		}
+	]
+}
