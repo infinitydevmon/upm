@@ -1,0 +1,5 @@
+sendbox/Library
+sendbox/Logs
+sendbox/Temp
+*.idea,
+*.meta
