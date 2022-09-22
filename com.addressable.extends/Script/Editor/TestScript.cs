@@ -1,29 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-public class TestScript : MonoBehaviour
+namespace com.addressable.extends
 {
-    static TestScript instance;
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
 
-    public static TestScript Instance
+    public class TestScript : MonoBehaviour
     {
-        get
+        static TestScript instance;
+
+        public static TestScript Instance
         {
-            if (instance == null)
+            get
             {
-                var go = new GameObject();
-                go.transform.parent = GameObject.Find("UI Root").transform;
-                go.transform.localScale = Vector3.one;
-                go.transform.localPosition = Vector3.zero;
-                instance = go.GetComponent<TestScript>();
+                if (instance == null)
+                {
+                    var go = new GameObject();
+                    go.transform.parent = GameObject.Find("UI Root").transform;
+                    go.transform.localScale = Vector3.one;
+                    go.transform.localPosition = Vector3.zero;
+                    instance = go.GetComponent<TestScript>();
+                }
+
+                return instance;
             }
-
-            return instance;
         }
-    }
 
-    public void Display()
-    {
+        public void Display()
+        {
+        }
     }
 }
