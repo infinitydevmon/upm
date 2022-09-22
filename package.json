@@ -1,6 +1,6 @@
 {
 	"name": "com.addressable.extends",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/infinitydevmon/upm/sendbox/Assets/SendBox.git"
